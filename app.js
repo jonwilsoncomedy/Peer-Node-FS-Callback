@@ -34,7 +34,7 @@ function done() {
   for (var i = 0; i < numArray.length; i++) {
     total = total + numArray[i];
   }
-  avg = total/numArray.length;
+  avg = Math.round(total/numArray.length);
   console.log("Average:", avg);
 
 }
